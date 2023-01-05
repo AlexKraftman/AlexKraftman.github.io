@@ -1,0 +1,21 @@
+.mainTages{
+    margin-top: 150px;
+    width: 1296px;
+    height: 663px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.textTages{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+.imageTages{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+}

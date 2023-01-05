@@ -1,5 +1,15 @@
 .App {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  flex: 1 1 auto;
   text-align: center;
+  background-color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Solway', serif;
 }
 
 .App-logo {
@@ -13,21 +23,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +30,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+ 
+
+  text-align: center;
+  background-color: black;
+  padding-bottom: 150px;
 }

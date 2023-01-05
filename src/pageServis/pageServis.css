@@ -1,0 +1,283 @@
+
+
+.pageMain{
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 150px; 
+}
+
+.mainTages2{
+    margin-top: 150px;
+    width: 1296px;
+    height: 663px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.textTages2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+.imageTages2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+}
+.imgText2{
+    width: 35%;
+    height: 35%;
+}
+.contenerImage{
+    display: flex;
+    flex-flow: column wrap;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.hederText2{
+    text-align: left;
+}
+.titleText2{
+    text-align: left;
+}
+
+/* pageMain */
+
+.mainServis2{
+    margin-top: 150px;
+    width: 1296px;
+    height: 771px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockServis2{
+    display: flex;
+  
+
+}
+.itemBlock2{
+    width: 306px;
+    height: 428px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    border: 1px solid #898989;
+    margin: auto;  
+         
+}
+.imgBlock2{
+    position: relative;
+    margin: auto;
+}
+.buttonBlock2{
+    background-color: #DB3138;    
+    width: 58px;
+    height: 41px;
+    position: relative;
+    margin:auto;
+    margin-left:85px;
+   
+}
+
+.itemButton2{
+position: absolute;
+margin-top:10px;
+margin-left: -10px;   
+font-size: 18px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.itemButton2:hover{
+    border: 1px solid white;
+}
+
+.textBlock2{
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+.textServis2{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.textButton2{
+display: flex;
+justify-content:space-between ;
+width: 500px;
+}
+
+.button2{
+color: white;
+width: 181px;
+height: 75px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+.button2:hover{
+border: 1px solid white;
+}
+.num12{
+   
+    background-color: #DB3138;
+}
+.num22{
+    background-color: black;
+}
+
+.hederServis2{
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+/* mainServis */
+
+.blockWorks2{
+    margin-top: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    width: 1920px;
+    height: 1028px;
+    color: white;
+}
+/* works */
+
+.mainTable{
+margin-top: 50px;
+width: 1296px;
+height: 823.78px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.itemTable{
+    width: 1296px;
+    height: 566px;
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    border-collapse: collapse;
+}
+
+.tdTable{
+    text-align: center;
+    border-top: 1px solid #898989;
+    font-size: 24px;
+   
+}
+.tdTable1{
+    color: #DB3138;
+    border-top: 1px solid #898989;
+    font-size: 24px;
+}
+.textHederTable{
+    width: 636px;
+    margin: auto;
+}
+
+/* mainTable */
+
+.blockScreen2{
+    width: 1920px;
+    height: 1000px;
+    background-image: url(/public/image/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    display: flex;    
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 14px;
+}
+.itemTitle2{
+    display: inline;
+    padding: 5px;
+    font-size: 24px;
+}
+.menuScreen2{
+color:white
+}
+
+.hederScreen2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.textMain2{
+    width: 437px;
+    font-size: 40px;    
+}
+.mainScreen2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;    
+    padding-bottom: 20px;
+    color: #DB3138;
+    margin-top: 150px;
+}
+
+.textMain2{
+    color: #ffff;
+    width: 900px;
+    text-align: center;
+   
+}
+.hederBlock2{
+    color: #ffff;
+    font-size: 30px;
+    position: relative;
+    top:-48px;
+    left:10px;
+}
+
+
+.titleBlock2{
+    background-color: #DB3138;
+    width: 50px;
+    height: 61px;   
+        
+}
+.header_link2{
+    color: white;
+    text-decoration: none;
+}

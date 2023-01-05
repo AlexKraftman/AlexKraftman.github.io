@@ -1,0 +1,89 @@
+.blockScreen{
+    width: 1920px;
+    height: 1000px;
+    background-image: url(/public/image/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid#898989;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: stretch;
+      
+}
+.itemTitle{
+    display: inline;
+    padding: 5px;
+    font-size: 24px;
+}
+.menuScreen{
+color:white
+}
+.mainScreen{
+    color: #DB3138;
+}
+.hederScreen{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.textMain{
+    width: 437px;
+    font-size: 40px;    
+}
+.mainScreen{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;    
+    padding-bottom: 20px;
+}
+
+.footerScreen{
+    height: 180px;
+    color:#DB3138;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.blockFooter{    
+    border: 1px solid #898989;
+    height:100%;
+    width:100%;
+  
+}
+.itemFooter{
+    margin: 20px 0 20px 0;
+}
+
+.hederFooter{
+    color: #ffff;
+    font-size: 18px;
+}
+.textMain{
+    color: #ffff;
+    width: 900px;
+    text-align: center;
+   
+}
+.hederBlock{
+    color: #ffff;
+    font-size: 24px;
+    position: relative;
+    top:-48px;
+    left:10px;
+}
+.textFooter{
+    font-size: 24px;
+}
+
+.titleBlock{
+    background-color: #DB3138;
+    width: 144px;
+    height: 61px;   
+        
+}
+.header_link{
+    color: white;
+    text-decoration: none;
+}

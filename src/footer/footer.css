@@ -1,0 +1,90 @@
+.contenerFooter{
+    color:white;
+    margin-top: 50px;
+    width: 1920px;
+    height: 653px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+        
+}
+.contener{
+    display: grid;
+    gap: 5px;
+    justify-items: center;
+ 
+    width:636px ;
+    height: 494px;
+}
+.blockButton{
+display: grid;
+grid-template-columns: 2fr 2fr;
+justify-items: start;
+align-items: center;
+
+
+}
+.buttonText{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+.elementInput{
+    width: 526px;
+    height:150px ;
+    background-color: black;
+    border: 1px solid #898989;
+}
+.elementInput:hover{
+    border: 1px solid #DB3138;
+}
+.itemInput{
+    width:306px ;
+    height: 47px;
+    background-color: black;
+    border: 1px solid #898989;
+}
+.itemInput:hover{
+    border: 1px solid #DB3138;
+}
+
+.inputName{
+    display: flex;
+    justify-content: space-between;
+}
+.inputBlock{
+display: flex;
+justify-content: space-between ;
+flex-direction: column;
+}
+.inputTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.imgTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textItem1{
+    display: flex;
+    justify-content: space-around;
+}
+.image2{
+    margin-right: 5px;
+}
+
+.blockItem{
+width: 119px;
+height: 61px;
+background: linear-gradient(to right, #DB3138 50%, #0000 50%);
+
+}
+.buttonItem{
+position: relative;
+top:30%;
+font-weight: 600;
+font-size: 20px;
+}

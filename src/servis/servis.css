@@ -1,0 +1,116 @@
+.mainServis{
+    margin-top: 150px;
+    width: 1296px;
+    height: 771px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockServis{
+    display: flex;
+  
+
+}
+.itemBlock{
+    width: 306px;
+    height: 428px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    border: 1px solid #898989;
+    margin: auto;  
+         
+}
+.imgBlock{
+    position: relative;
+    margin: auto;
+}
+.buttonBlock{
+    background-color: #DB3138;    
+    width: 58px;
+    height: 41px;
+    position: relative;
+    margin:auto;
+    margin-left:85px;
+   
+}
+
+.itemButton{
+position: absolute;
+margin-top:10px;
+margin-left: -10px;   
+font-size: 18px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.itemButton:hover{
+    border: 1px solid white;
+}
+
+.textBlock{
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+.textServis{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.textButton{
+display: flex;
+justify-content:space-between ;
+width: 500px;
+}
+
+.button{
+color: white;
+width: 181px;
+height: 75px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+.button:hover{
+border: 1px solid white;
+}
+.num1{
+   
+    background-color: #DB3138;
+}
+.num2{
+    background-color: black;
+}
+
+.hederServis{
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
